@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "package.json",
-  "author": null,
+  "author": "Ramy Mansy <ramymansy4@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
     "start": "sanity start",
@@ -29,3 +29,4 @@
   },
   "devDependencies": {}
 }
+

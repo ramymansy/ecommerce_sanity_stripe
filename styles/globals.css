@@ -68,8 +68,9 @@ span.text-red {
   margin-left: 6px;
 }
 .logo {
-  color: gray;
-  font-size: 18px;
+  color: #f02d34;
+  font-weight: bold;
+  font-size: 24px;
 }
 .cart-icon {
   font-size: 25px;
@@ -232,6 +233,10 @@ span.text-red {
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 .banner-desc .left h3 {
   font-weight: 900;
@@ -243,9 +248,12 @@ span.text-red {
 }
 .footer-banner-image {
   position: absolute;
-  /* top: -35%;
-  left: 8%; */
-  top: -25%;
+  top: -35%;
+  left: 8%;
+  width: 500px;
+  height: 500px;
+  pointer-events: none;
+  top: -15%;
   left: 25%;
 }
 .banner-desc .right {
@@ -614,10 +622,10 @@ span.text-red {
     height: 560px;
   }
   .hero-banner-image {
-    width: 77%;
-    height: 62%;
-    top: -2%;
-    right: -6%;
+    width: 70%;
+    height: 50%;
+    top: 30%;
+    right: -15%;
   }
   .footer-banner-container {
     height: 560px;
@@ -625,8 +633,8 @@ span.text-red {
   }
   .footer-banner-image {
     width: 77%;
-    left: 30%;
-    top: 6%;
+    left: 35%;
+    top: 5%;
     height: 56%;
   }
   .banner-desc .left h3 {

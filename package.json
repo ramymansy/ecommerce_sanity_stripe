@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/core": "^7.17.9",
     "@sanity/client": "^3.3.0",
     "@sanity/image-url": "^1.0.1",
     "@stripe/stripe-js": "^1.29.0",
@@ -25,5 +26,9 @@
     "@babel/preset-react": "^7.16.7",
     "eslint": "8.14.0",
     "eslint-config-next": "12.1.5"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/ramymansy/ecommerce_sanity_stripe.git",
+  "author": "Ramy-Mansy <rami_manse@outlook.com>",
+  "license": "MIT"
 }
